@@ -1,66 +1,71 @@
-## Foundry
+# MattytestNFT 🚀
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+MattytestNFT is a simple ERC721 Non-Fungible Token (NFT) smart contract built using Solidity and OpenZeppelin.  
+This project demonstrates NFT minting, ownership control, and deployment to the Sepolia Ethereum Testnet.
 
-Foundry consists of:
+---
 
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## 📌 Project Overview
 
-## Documentation
+This contract allows the owner to mint ERC721 NFTs to any address.  
+It uses OpenZeppelin’s secure and battle-tested ERC721 implementation.
 
-https://book.getfoundry.sh/
+The goal of this project was to:
 
-## Usage
+- Understand the ERC721 NFT standard
+- Implement controlled minting using Ownable
+- Work with base URI metadata
+- Deploy a smart contract to Sepolia Testnet
+- Mint an NFT to my MetaMask wallet
 
-### Build
+---
 
-```shell
-$ forge build
-```
+## 🛠 Tech Stack
 
-### Test
+- Solidity ^0.8.20
+- OpenZeppelin Contracts
+- MetaMask
+- Sepolia Testnet
 
-```shell
-$ forge test
-```
+---
 
-### Format
+## ⚙️ Smart Contract Features
 
-```shell
-$ forge fmt
-```
+- ERC721 compliant NFT
+- Owner-only mint function
+- Incrementing token ID counter
+- Base URI metadata support
+- Safe minting using `_safeMint`
 
-### Gas Snapshots
+---
 
-```shell
-$ forge snapshot
-```
+## 🌐 Deployment Details
 
-### Anvil
+The contract was successfully deployed and tested by minting an NFT to my wallet.
 
-```shell
-$ anvil
-```
+---
 
-### Deploy
+## 📂 Project Structure
+contracts/
+MattytestNFT.sol
 
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
+scripts/
+deploy.js
 
-### Cast
+test/
+(test files)
 
-```shell
-$ cast <subcommand>
-```
+README.md
 
-### Help
 
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+---
+
+## 🎯 Learning Outcome
+
+Through this project, I gained hands on experience with:
+
+- Writing and structuring smart contracts
+- Using OpenZeppelin libraries
+- Managing ownership and permissions
+- Deploying to Ethereum testnets
+- Interacting with contracts using MetaMask
