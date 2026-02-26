@@ -1,11 +1,11 @@
-# MattytestNFT 🚀
+# MattytestNFT
 
 MattytestNFT is a simple ERC721 Non-Fungible Token (NFT) smart contract built using Solidity and OpenZeppelin.  
 This project demonstrates NFT minting, ownership control, and deployment to the Sepolia Ethereum Testnet.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This contract allows the owner to mint ERC721 NFTs to any address.  
 It uses OpenZeppelin’s secure and battle-tested ERC721 implementation.
@@ -20,7 +20,7 @@ The goal of this project was to:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Solidity ^0.8.20
 - OpenZeppelin Contracts
@@ -29,7 +29,7 @@ The goal of this project was to:
 
 ---
 
-## ⚙️ Smart Contract Features
+## Smart Contract Features
 
 - ERC721 compliant NFT
 - Owner-only mint function
@@ -39,13 +39,13 @@ The goal of this project was to:
 
 ---
 
-## 🌐 Deployment Details
+## Deployment Details
 
 The contract was successfully deployed and tested by minting an NFT to my wallet.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 contracts/
 MattytestNFT.sol
 
@@ -60,7 +60,7 @@ README.md
 
 ---
 
-## 🎯 Learning Outcome
+## Learning Outcome
 
 Through this project, I gained hands on experience with:
 
